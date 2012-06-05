@@ -1,0 +1,214 @@
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-06-06 00:53:36 +0530
+Connecting to database specified by database.yml
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:404:in `retrieve_connection'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:168:in `retrieve_connection'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:142:in `connection'
+  activerecord (3.2.5) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.5) lib/active_record/query_cache.rb:61:in `call'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `_run__4091749324587117800__call__2580015640681063024__callbacks'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/bhushan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/bhushan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/bhushan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/bhushan/.rvm/gems/ruby-1.9.2-p290@projectx/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /Users/bhushan/.rvm/gems/ruby-1.9.2-p290@projectx/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (27.2ms)
+  Rendered /Users/bhushan/.rvm/gems/ruby-1.9.2-p290@projectx/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (49.6ms)
+
+
+Started GET "/pages/index" for 127.0.0.1 at 2012-06-06 00:53:45 +0530
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:404:in `retrieve_connection'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:168:in `retrieve_connection'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:142:in `connection'
+  activerecord (3.2.5) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.5) lib/active_record/query_cache.rb:61:in `call'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `_run__4091749324587117800__call__2580015640681063024__callbacks'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/bhushan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/bhushan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/bhushan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/bhushan/.rvm/gems/ruby-1.9.2-p290@projectx/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/bhushan/.rvm/gems/ruby-1.9.2-p290@projectx/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/bhushan/.rvm/gems/ruby-1.9.2-p290@projectx/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.7ms)
+
+
+Started GET "/pages/index" for 127.0.0.1 at 2012-06-06 00:55:53 +0530
+Connecting to database specified by database.yml
+
+Mysql2::Error (Unknown database 'projectx'):
+  mysql2 (0.3.11) lib/mysql2/client.rb:44:in `connect'
+  mysql2 (0.3.11) lib/mysql2/client.rb:44:in `initialize'
+  activerecord (3.2.5) lib/active_record/connection_adapters/mysql2_adapter.rb:16:in `new'
+  activerecord (3.2.5) lib/active_record/connection_adapters/mysql2_adapter.rb:16:in `mysql2_connection'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:309:in `new_connection'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:319:in `checkout_new_connection'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:241:in `block (2 levels) in checkout'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:236:in `loop'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:236:in `block in checkout'
+  /Users/bhushan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/monitor.rb:201:in `mon_synchronize'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:233:in `checkout'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:96:in `block in connection'
+  /Users/bhushan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/monitor.rb:201:in `mon_synchronize'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:95:in `connection'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:404:in `retrieve_connection'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:168:in `retrieve_connection'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:142:in `connection'
+  activerecord (3.2.5) lib/active_record/query_cache.rb:67:in `rescue in call'
+  activerecord (3.2.5) lib/active_record/query_cache.rb:61:in `call'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `_run__3647803080486513838__call__1247656623491789253__callbacks'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/bhushan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/bhushan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/bhushan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/bhushan/.rvm/gems/ruby-1.9.2-p290@projectx/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (18.5ms)
+  Rendered /Users/bhushan/.rvm/gems/ruby-1.9.2-p290@projectx/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.5ms)
+  Rendered /Users/bhushan/.rvm/gems/ruby-1.9.2-p290@projectx/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (36.6ms)
+
+
+Started GET "/pages/index" for 127.0.0.1 at 2012-06-06 00:56:24 +0530
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+Compiled pages.css  (84ms)  (pid 1197)
+Compiled application.css  (92ms)  (pid 1197)
+Compiled jquery.js  (1ms)  (pid 1197)
+Compiled jquery_ujs.js  (0ms)  (pid 1197)
+Compiled pages.js  (116ms)  (pid 1197)
+Compiled application.js  (153ms)  (pid 1197)
+Completed 200 OK in 352ms (Views: 351.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-06-06 00:56:25 +0530
+Served asset /pages.css - 200 OK (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-06 00:56:25 +0530
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-06 00:56:25 +0530
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-06-06 00:56:25 +0530
+Served asset /pages.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-06 00:56:25 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-06 00:56:25 +0530
+Served asset /jquery.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-06-06 00:58:14 +0530
+Connecting to database specified by database.yml
+Served asset /rails.png - 200 OK (4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-06 00:58:34 +0530
+Connecting to database specified by database.yml
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 71ms (Views: 70.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-06 00:58:35 +0530
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-06-06 00:58:35 +0530
+Served asset /pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-06 00:58:35 +0530
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-06 00:58:35 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-06-06 00:58:35 +0530
+Served asset /pages.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-06 00:58:35 +0530
+Served asset /application.js - 304 Not Modified (4ms)
